@@ -1,8 +1,8 @@
-Recipe page
+# Recipe page
 
-## Welcome! 👋
+![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
 
-[This is my attempt](https://recipe-page-main-lake-seven.vercel.app/) completing a Frontend Mentor challenge.
+Welcome! 👋 [This is my attempt](https://recipe-page-main-lake-seven.vercel.app/) completing a Frontend Mentor challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
