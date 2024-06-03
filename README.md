@@ -2,7 +2,7 @@ Recipe page
 
 ## Welcome! 👋
 
-T[his is my attempt](https://recipe-page-main-lake-seven.vercel.app/) completing a Frontend Mentor challenge.
+[This is my attempt](https://recipe-page-main-lake-seven.vercel.app/) completing a Frontend Mentor challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
