@@ -1,3 +1,99 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: 'Young Serif - Regular';
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('ttf');
+}
+
+body {
+  font-family: 'Young Serif - Regular', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.content-section {
+  padding: 20px;
+}
+
+.head-section,
+.preparation,
+.ingredients,
+.instructions,
+.nutrition {
+  border: 2px solid red;
+  margin: 15px 0px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.main-description {
+  border: 2px solid;
+  margin: 20px 0px;
+  line-height: 1.2rem;
+}
+
+.preparation {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.preparation-heading {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.preparation-list {
+  margin-left: 20px;
+  padding-right: 50px;
+}
+li {
+  margin: 15px 0px;
+}
+.make-bold {
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.ingredients-list {
+  margin-left: 20px;
+  padding-right: 50px;
+}
+
+.instructions-list {
+  margin-left: 20px;
+}
+
+.nutrition-description {
+  margin: 20px 0px;
+}
+
+table {
+  /* border: 2px solid red; */
+  width: 75%;
+  /* margin: auto; */
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+td {
+  /* border: 2px solid red; */
+  padding: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
