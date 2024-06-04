@@ -32,7 +32,6 @@ img {
 .ingredients,
 .instructions,
 .nutrition {
-  /* border: 2px solid red; */
   margin: 35px 0px;
 }
 
@@ -44,9 +43,9 @@ h1 {
 }
 
 .main-description {
-  /* border: 2px solid; */
   margin: 20px 0px;
-  line-height: 1.2rem;
+  line-height: 1.3rem;
+  word-spacing: 0.3rem;
 }
 
 .preparation {
@@ -57,7 +56,7 @@ h1 {
 
 .preparation-heading {
   font-family: 'Outfit', serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 10px;
   color: hsl(332, 51%, 32%);
 }
@@ -66,16 +65,30 @@ h1 {
   margin-left: 20px;
   padding-right: 50px;
 }
-li {
-  margin: 15px 0px;
+
+.preparation-list li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 10px;
 }
+
+.preparation-list li:before {
+  content: '\2022';
+  color: hsl(332, 51%, 32%);
+  font-size: 2rem;
+  display: inline-block;
+  width: 1rem;
+  margin-right: 0.5em;
+}
+
 .make-bold {
   font-weight: 900;
 }
 
 h3 {
   font-family: 'Young Serif', serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 10px;
   color: hsl(14, 45%, 36%);
 }
@@ -85,8 +98,38 @@ h3 {
   padding-right: 50px;
 }
 
+.ingredients-list li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.ingredients-list li:before {
+  content: '\2022';
+  font-size: 2rem;
+  display: inline-block;
+  width: 1rem;
+  color: hsl(14, 45%, 36%);
+  margin-right: 0.5em;
+}
+
 .instructions-list {
   margin-left: 20px;
+}
+
+.instructions-list li {
+  margin: 15px 0px;
+  margin-left: 20px;
+}
+
+.instructions-list li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+}
+
+.instructions-item-text {
+  width: 90%;
+  margin-left: 25px;
 }
 
 .nutrition-description {
@@ -94,15 +137,12 @@ h3 {
 }
 
 table {
-  /* border: 2px solid red; */
   width: 75%;
-  /* margin: auto; */
   padding-left: 20px;
   margin-bottom: 10px;
 }
 
 td {
-  /* border: 2px solid red; */
   padding: 10px;
   border-bottom: 1px solid gainsboro;
 }
@@ -113,6 +153,7 @@ td {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 50px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -121,16 +162,14 @@ td {
 @media screen and (min-width: 570px) {
   main {
     width: 80%;
-    max-width: 650px;
-    /* border: 2px solid blue; */
+    max-width: 800px;
     margin: 20px auto;
     border-radius: 25px;
+    padding: 15px;
   }
   img {
-    height: 300px;
+    height: 350px;
     padding: 20px;
-  }
-  table {
-    margin: auto;
+    border-radius: 50px;
   }
 }
